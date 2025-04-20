@@ -11,8 +11,7 @@ app.use((req, res, next) => {
 });
 
 // MongoDB connection setup
-const MongoDB_URI =
-  "mongodb+srv://pankajgupta0695:mgSqRaO7Nf8Kst3z@cluster0.ymaawz3.mongodb.net/";
+const MongoDB_URI = "MongoDB_URI";
 const client = new MongoClient(MongoDB_URI);
 let productsCollection;
 
