@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-demo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pankaj Gupta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^6.15.0",
+    "nodemon": "^3.1.9"
+  }
+}
